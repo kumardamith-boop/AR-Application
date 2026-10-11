@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>No connection</title>
+<style>
+  body { margin: 0; font-family: system-ui, sans-serif; background: #F5F4F7; color: #26212C; display: grid; place-items: center; min-height: 100vh; }
+  main { max-width: 22rem; padding: 2rem 1.25rem; text-align: center; }
+  img { width: 140px; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.35rem; margin: 0 0 .5rem; }
+  p { color: #5D5A63; line-height: 1.5; }
+  button { margin-top: 1rem; font: inherit; font-weight: 600; background: #8E2A8C; color: #fff; border: 0; border-radius: 10px; padding: .8rem 1.4rem; min-height: 48px; }
+</style>
+</head>
+<body>
+<main>
+  <img src="/logo.png" alt="Gennext" />
+  <h1>You're offline</h1>
+  <p>The cheque app needs a connection to load and save. Nothing you did was lost; try again when you have signal.</p>
+  <button onclick="location.reload()">Try again</button>
+</main>
+</body>
+</html>
